@@ -1,18 +1,43 @@
-body {
-    background-color: powderblue;
-}
-h1 {
-    color: blue;
-}
 
-h2 {
-    border: 3px solid black;
-    padding: 15px;
+body {
+    background-color: rgb(235, 253, 255);
 }
 
 p {
-    color: black;
-    
     font-family: 'Times New Roman', Times, serif;
     font-size: 100%;
+    margin: 30px;
+}
+
+h1{
+    font-family: 'Armio', sans-serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-decoration-line: underline;
+    margin: 20px;
+}
+
+#name {
+    padding: 24px 0px 0px 0px;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-decoration-line: underline;
+    height: 60px;
+    margin: 20px 10px 20px 10px;
+    background-color: rgb(255, 206, 126);
+}
+
+#headShot {
+    border: 3px solid black;
+    padding: 6px 2px 6px 2px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.links li  {
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
 }
